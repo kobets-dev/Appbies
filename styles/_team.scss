@@ -1,0 +1,9 @@
+.team {
+    padding: 135px 0 188px;
+    background-image: url("/images/team-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__img {
+        margin-top: 83px;
+    }
+}

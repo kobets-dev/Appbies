@@ -1,0 +1,9 @@
+.about {
+    padding: 197px 0 178px;
+    background-image: url("/images/about-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__text {
+        margin: 30px auto 69px;
+    }
+}

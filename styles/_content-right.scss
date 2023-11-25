@@ -1,0 +1,32 @@
+.content-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 388px;
+    &__text {
+        text-align: left;
+        &:not(:last-of-type) {
+            margin-bottom: 75px;
+        }
+    }
+    &__title {
+        margin-bottom: 25px;
+        font-size: $medium-font;
+    }
+    &__desc {
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .content-right {
+        &__text {
+            &:not(:last-of-type) {
+                margin-bottom: 40px;
+            }
+        }
+        &__title {
+            margin-bottom: 15px;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.contact-chat {
+    &__title {
+        font-size: $large-font;
+        margin: 0 auto 50px;
+    }
+    &__img {
+        max-width: 170px;
+    }
+    &__text {
+        margin: 33px auto 15px;
+    }
+    &__btn--online {
+        display: block;
+        background-color: #05d10f;
+        border-radius: 30px;
+        border: 1px solid #05d10f;
+        width: 85px;
+        height: 23px;
+        line-height: 23px;
+        color: #fff;
+        font-size: 0.667rem;
+        margin: 0 auto 35px;
+    }
+    &__btn--chat {
+        display: block;
+        border: 2px solid #fff;
+        background: none;
+        width: 150px;
+        height: 38px;
+        line-height: 38px;
+        color: #fff;
+        font-size: $small-font;
+        font-weight: 700;
+        margin: 0 auto;
+    }
+}

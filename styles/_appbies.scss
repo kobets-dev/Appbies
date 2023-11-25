@@ -1,0 +1,56 @@
+.appbies {
+    display: flex;
+    padding-right: 113px;
+    padding-left: 150px;
+    margin: 0 auto;
+    &__box {
+        margin-right: 107px;
+        margin-top: 209px;
+        &-text {
+            max-width: 487px;
+            margin: 57px 0;
+        }
+        &-btn {
+            display: block;
+            margin: 0 auto;
+            width: 238px;
+            height: 59px;
+            line-height: 59px;
+            color: #fff;
+            font-size: $medium-font;
+            text-decoration: none;
+            border: 2px solid #fff;
+        }
+    }
+    &__img {
+        margin-top: 85px;
+        & img {
+            max-width: 390px;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .appbies {
+        &__box {
+            margin-right: 70px;
+            margin-top: 130px;
+            &-text {
+                max-width: 487px;
+                margin: 35px 0;
+            }
+            &-btn {
+                width: 170px;
+                height: 40px;
+                line-height: 40px;
+                font-size: $small-font;
+            }
+        }
+        &__img {
+            margin-top: 85px;
+            & img {
+                max-width: 300px;
+            }
+        }
+    }
+}

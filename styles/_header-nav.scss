@@ -1,0 +1,20 @@
+.header-nav {
+    &__link {
+        color: white;
+        font-size: $small-font;
+        text-decoration: none;
+        &:not(:last-child) {
+            margin-right: 55px;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header-nav {
+        &__link {
+            &:not(:last-child) {
+                margin-right: 25px;
+            }
+        }
+    }
+}

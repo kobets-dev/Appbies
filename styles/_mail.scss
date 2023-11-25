@@ -1,0 +1,22 @@
+.mail {
+    &__text {
+        border-bottom: #1b1b1b solid 1px;
+        color: #1b1b1b;
+        font-style: italic;
+    }
+    &__form {
+        margin-top: 44px;
+        &-email {
+            font-size: 15px;
+            letter-spacing: 1px;
+            line-height: 30px;
+            color: #a0a0a0;
+            margin-right: 38px;
+            border: none;
+            border-bottom: #a0a0a0 1px solid;
+        }
+        &-btn {
+            @include button (#4f4f4f, #4f4f4f)
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.networks {
+    margin: 48px 0 54px;
+    &__link {
+        color: #454545;
+        &:not(:last-child) {
+            margin-right: 60px;
+        }
+    }
+}

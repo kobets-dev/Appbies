@@ -1,0 +1,11 @@
+        .screenshot-box {
+            display: flexbox;
+            justify-content: space-between;
+            margin-top: 71px;
+            &__img {
+                max-width: 270px;
+                &:not(:last-child) {
+                    margin-right: 72px;
+                }
+            }
+        }

@@ -1,0 +1,11 @@
+.get-it {
+    padding: 140px 0 253px;
+    background-image: url("../images/get-it-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -200px;
+    &__text {
+        margin: 40px auto 57px;
+    }
+}

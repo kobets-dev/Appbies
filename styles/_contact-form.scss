@@ -1,0 +1,22 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    &__user {
+        background: none;
+        border: none;
+        border-bottom: 2px solid white;
+        line-height: 30px;
+        margin-bottom: 33px;
+    }
+    &__btn {
+        @include button (#fff, #fff);
+    }
+}
+
+.contact-form__user::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.contact-form__user::-moz-placeholder {
+    color: #fff;
+}

@@ -1,0 +1,40 @@
+.download {
+    position: relative;
+    &__link {
+        display: block;
+        width: 366px;
+        height: 90px;
+        line-height: 90px;
+        font-size: $large-font;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 300;
+        border: 2px solid #fff;
+        padding-left: 34px;
+    }
+    &:not(:last-child) {
+        margin-right: 61px;
+    }
+}
+
+.download--ios::before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 38px;
+    background-image: url("/icons/ios.png");
+    position: absolute;
+    left: 62px;
+    top: 25px;
+}
+
+.download--android::before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 38px;
+    background-image: url("/icons/android.png");
+    position: absolute;
+    left: 62px;
+    top: 25px;
+}

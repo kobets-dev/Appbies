@@ -1,0 +1,44 @@
+.update {
+    display: flex;
+    &__link {
+        &:not(:last-of-type) {
+            margin-right: 36px;
+        }
+        &--green {
+            @include btn(#a5c63b);
+        }
+        &--blue {
+            @include btn(#009ddc);
+        }
+        &--orange {
+            @include btn(#f8682c);
+        }
+    }
+}
+
+.update__link--green::before {
+    content: "";
+    background-image: url("/icons/android.png");
+    display: block;
+    width: 32px;
+    height: 38px;
+    margin: 36px auto 0;
+}
+
+.update__link--blue::before {
+    content: "";
+    background-image: url("/icons/ios.png");
+    display: block;
+    width: 32px;
+    height: 38px;
+    margin: 36px auto 0;
+}
+
+.update__link--orange::before {
+    content: "";
+    background-image: url("/icons/windows.png");
+    display: block;
+    width: 32px;
+    height: 38px;
+    margin: 36px auto 0;
+}
